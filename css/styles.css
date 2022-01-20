@@ -158,6 +158,7 @@ ul {
     line-height: 1.18;
     text-align: center;
     color: var(--second-text-color);
+    padding-bottom: 30px;
 }
 .button{
     display: inline-block;
@@ -358,7 +359,44 @@ ul {
     margin-right: 10px;
     fill: currentColor;
 }
-.link-cont-icon:focus,
-.link-cont-icon:hover{
-    fill: currentColor;
+.list-team-link{
+    display: flex;
+    justify-content: center;
+}
+.link-team-item:not(:last-child){
+    margin-right: 10px;
+}
+.link-team-icon:focus,
+.link-team-icon:hover{
+    fill: white;
+}
+.link-icon-team{
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+}
+.link-icon-team:focus,
+.link-icon-team:hover{
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+}
+.team-item,
+.team-item-first{
+    text-align: center;
+}
+.link-team-icon{
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
 }
